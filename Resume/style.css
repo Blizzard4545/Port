@@ -1,0 +1,52 @@
+
+a:link {
+  color: darkblue;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 0 10px;
+}
+
+a:visited {
+  color: lightsteelblue;
+
+}
+
+
+.main-header {
+  background-color: orange;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.primary-content {
+  background-color: lightsteelblue;
+  font-size: 1em;
+  font-family: Helvetica, Arial, sans-serif;
+  margin: auto;
+  padding; 10px;
+}
+
+.work-history {
+  text-align: center;
+  border: 10px dotted darkblue;
+  margin-bottom: 20px;
+  box-shadow: 10px 5px 10px 5px;
+  box-sizing: border-box;
+}
+
+.work-list {
+  list-style-type: none;
+  text-align: center;
+}
+
+.main-footer {
+  padding: 10px 0;
+  margin: auto;
+  border: 10px dashed orange;
+  text-align: center;
+}
+
+.contact-list {
+  list-style-type: none;
+}
