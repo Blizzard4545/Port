@@ -1,0 +1,41 @@
+
+body {
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1em;
+}
+
+.primary-content {
+  background-color: rgba(156,76,98, 50);
+  text-align: center;
+
+}
+
+
+.main-header {
+  background-color: orange;
+  text-align: center;
+  margin: 0px;
+}
+
+.main-footer {
+  color: forestgreen;
+  text-align:center;
+  border: 5px solid black;
+}
+
+a:visited {
+  text-transform:: none;
+  color: lightgreen;
+}
+
+a {
+  text-decoration: none;
+  color: amber;
+}
