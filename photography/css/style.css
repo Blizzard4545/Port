@@ -1,0 +1,42 @@
+
+a:link {
+  color: orange;
+}
+
+a:visited {
+  color: forestgreen;
+}
+
+.main-header {
+  text-align: center;
+  background-color: lightsteelblue;
+  padding: 0px;
+  margin: 0px
+}
+
+.main-list {
+  list-style-type: none;
+}
+
+.main-heading {
+  padding: 0px;
+  marging: 0px;
+  border: 0px;
+}
+
+.main-words {
+  padding: 10px;
+  margin: auto;
+  border: 10px solid red;
+}
+
+
+
+
+/* Float Clearfix ------------------ */
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
