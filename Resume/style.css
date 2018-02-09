@@ -1,4 +1,8 @@
 
+* {
+  box-sizing: border-box;
+}
+
 a:link {
   color: darkblue;
   text-decoration: none;
@@ -10,7 +14,6 @@ a:visited {
   color: lightsteelblue;
 
 }
-
 
 .main-header {
   background-color: orange;
@@ -32,7 +35,6 @@ a:visited {
   border: 10px dotted darkblue;
   margin-bottom: 20px;
   box-shadow: 10px 5px 10px 5px;
-  box-sizing: border-box;
 }
 
 .work-list {
@@ -49,4 +51,11 @@ a:visited {
 
 .contact-list {
   list-style-type: none;
+}
+
+
+
+
+@media (max-width: 920px) {
+  background: tomato; 
 }
