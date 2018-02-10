@@ -1,0 +1,30 @@
+/* Float Clearfix ------------------ */
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+/* ---Gobal Style---------------- */
+.main {
+  color: white;
+  text-align: center;
+  background: orange;
+  margin: 15px 0px 10px 0;
+  padding: 10px 10px;
+}
+
+a:link {
+  text-decoration: none;
+}
+/* ---Specific Style---------------- */
+.navigation,
+.group {
+  float: right;
+  color: black;
+  list-style-type: none;
+
+}
